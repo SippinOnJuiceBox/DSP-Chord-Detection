@@ -38,6 +38,11 @@ After using the look up table we can get the top 3 most frequent frequencies and
 
 Below we are using a G4 Chord on a piano (G, B, D) and the output is displaying the most matched frequencies
 ![App Screenshot](https://cdn.discordapp.com/attachments/351867028589510656/947740942662791218/be5f64476ebb4accba7c96bf001c92dd.gif)
+
+## Other info
+
+In the future we can use this tech to make something similar to apps like yousician, We can also use algorithms to remove noise and mute sounds to get even more accurate results from this.
+
 ## Acknowledgements
 
  - [Applications of Fourier Analysis to Audio Signal Processing: An Investigation of Chord Detection Algorithms](https://scholarship.claremont.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1575&context=cmc_theses)
