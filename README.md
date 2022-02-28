@@ -35,6 +35,8 @@ The basic concept of how this is works is that each pitch has a corresponding fr
 
 ## Conclusion
 After using the look up table we can get the top 3 most frequent frequencies and those three notes would be the notes in a chord, With this we could also make another table of chords with their respective notes and do the same process we did with the notes and frequencies to get the chords.
+
+Below we are using a G4 Chord on a piano (G, B, D) and the output is displaying the most matched frequencies
 ![App Screenshot](https://cdn.discordapp.com/attachments/351867028589510656/947740942662791218/be5f64476ebb4accba7c96bf001c92dd.gif)
 ## Acknowledgements
 
