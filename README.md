@@ -41,7 +41,7 @@ Below we are using a G4 Chord on a piano (G, B, D) and the output is displaying 
 
 ## Other info
 
-In the future we can use this tech to make something similar to apps like yousician, We can also use algorithms to remove noise and mute sounds to get even more accurate results from this.
+In the future we can use this tech to make something similar to apps like yousician, We can also use pre processing algorithms to get even more accurate results but for now what we have will work for almost any instruments.
 
 ## Acknowledgements
 
