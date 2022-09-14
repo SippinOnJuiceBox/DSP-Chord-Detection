@@ -8,16 +8,11 @@ This project explores the applications of Fourier analysis and some concepts of 
 This project originally used a CNN trained using tensorflow on a dataset of thousands of images of spectrograms for multiple musical chords. However, it was found that collecting large amounts of data and training a neural network is quite a tedious approach to this task. Instead, Fourier analysis can be used on the audio itself.
 ##   Explanation
 
-Using ``matplotlib`` and ``scipy`` we can import and show exactly what the audio file of a note or a chord looks like as a function of time.
-using this graph we can cut the audio file down for processing (I used 8 seconds). ``Note: I am using WAV files``
+We can use matplotlib and scipy to import and show the audio file of a note or chord as a function of time. By using this graph, we can cut the audio file down for processing (I used 8 seconds). Note: I am using WAV files.
 
-Next we can use the ``Fast Fourier Transform (FFT)`` algorithm built in to scipy with numpy on the graph of the audio and it returns a new graph
-which is the Fourier Transform of the previous graph. To put it simply, the Fourier Transform converts the graph from a function of time to a function of frequency
-where the peaks represent the detected sounds. Now we can simply just find the location of the peaks on the x axis and that will give us the frequency of the sound.
+Next, we can use the Fast Fourier Transform (FFT) algorithm built in to scipy with numpy on the graph of the audio, which returns a new graph that is the Fourier Transform of the previous graph. To put it simply, the Fourier Transform converts the graph from a function of time to a function of frequency, where the peaks represent the detected sounds.
 
-Now we can create a ``lookup table of notes and their respective frequencies`` and match the values.
-We will have to do a little bit of post processing on the frequencies of the peaks in order to generate accurate results.
-
+Now, we can simply find the location of the peaks on the x axis, which will give us the frequency of the sound. We can then create a lookup table of notes and their respective frequencies and match the values. We will have to do a little bit of post processing on the frequencies of the peaks in order to generate accurate results.
 
 
 ![App Screenshot](https://media.discordapp.net/attachments/947249030306607114/947277548818153553/unknown.png?width=1336&height=671)
@@ -41,7 +36,7 @@ Below we are using a G4 Chord on a piano (G, B, D) and the output is displaying 
 
 ## Other info
 
-In the future we can use this tech to make something similar to apps like yousician, We can also use pre processing algorithms to get even more accurate results but for now what we have will work for almost any instruments.
+In the future we can use this tech to make something similar to apps like yousician or Shazam, We can also use pre processing algorithms to get even more accurate results but for now what we have will work for almost any instruments.
 
 ## Acknowledgements
 
