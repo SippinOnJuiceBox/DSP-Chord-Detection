@@ -5,7 +5,7 @@ This project explores the applications of Fourier analysis and some concepts of 
 
 ## Introduction
 
-Originally this project used a CNN trained using tensorflow on a dataset of thousands of images of spectograms for multiple musical chords. As it turns out, collecting large ammounts of data and training a neural network is quite a tedious approach to this task, Instead we can just simply use Fourier analysis on the audio itself
+This project originally used a CNN trained using tensorflow on a dataset of thousands of images of spectrograms for multiple musical chords. However, it was found that collecting large amounts of data and training a neural network is quite a tedious approach to this task. Instead, Fourier analysis can be used on the audio itself.
 ##   Explanation
 
 Using ``matplotlib`` and ``scipy`` we can import and show exactly what the audio file of a note or a chord looks like as a function of time.
