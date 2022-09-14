@@ -1,7 +1,7 @@
 
 # Chord Detection via Fourier Analysis
 
-This project explores the applications of Fourier analysis and some concepts of digital sound processing.
+🎶 This project explores the applications of Fourier analysis and some concepts of digital sound processing.
 
 ## Introduction
 
